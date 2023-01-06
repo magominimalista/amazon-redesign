@@ -1,0 +1,84 @@
+[
+  {
+    "name": "2022 Apple 10.9-inch iPad (Wi-Fi, 64GB) - Blue (10th Generation)",
+    "image": "https://m.media-amazon.com/images/I/61uA2UVnYWL._AC_UY218_.jpg",
+    "classification": "4.7",
+    "rank": "575",
+    "price": "449",
+    "cents": "00",
+    "options": "2",
+    "colors": {
+        "blue": "#718ba8",
+        "rose": "#bc5667",
+        "gray": "#8f8f8f",
+        "golden": "#b3a244"
+    }
+  },
+  {
+    "name": "Apple 2021 12.9-inch iPad Pro (Wi-Fi + Cellular, 128GB) - Space Gray with AppleCare+ (2 Years)",
+    "image": "https://m.media-amazon.com/images/I/718bHN0IHGL._AC_UY218_.jpg",
+    "classification": "4.8",
+    "rank": "5,702",
+    "price": "1,365",
+    "cents": "38",
+    "options": "5",
+    "colors": {
+        "gray": "#8f8f8f",
+        "gray2": "#8f8f8f"
+    }
+  },
+  {
+    "name": "2022 Apple 12.9-inch iPad Pro (Wi-Fi, 128GB) - Silver (6th Generation)",
+    "image": "https://m.media-amazon.com/images/I/81rxOSprYqL._AC_UY218_.jpg",
+    "classification": "4.5",
+    "rank": "182",
+    "price": "1,093",
+    "cents": "96",
+    "options": "5",
+    "colors": {
+        "black": "#000000",
+        "darkgray": "#272426"
+    }
+  },
+  {
+    "name": "Apple 2021 iPad Mini (Wi-Fi, 64GB) - Space Gray",
+    "image": "https://m.media-amazon.com/images/I/71ey-9D8yDL._AC_UY218_.jpg",
+    "classification": "4.8",
+    "rank": "6,415",
+    "price": "459",
+    "cents": "98",
+    "options": "2",
+    "colors": {
+        "darkgray": "#272426",
+        "light": "#dddddd"
+    }
+  },
+  {
+    "name": "2022 Apple iPad Air (10.9-inch, Wi-Fi + Cellular, 256GB) - Pink (5th Generation)",
+    "image": "https://m.media-amazon.com/images/I/61ULwAcGldL._AC_UY218_.jpg",
+    "classification": "4.8",
+    "rank": "6,915",
+    "price": "858",
+    "cents": "00",
+    "options": "2",
+    "colors": {
+        "pink": "#dbc3c1"
+    }
+  },
+  {
+    "name": "10.9-inch iPad Air Wi-Fi + Cellular 64GB - Space Gray with AppleCare+ (2 Years)",
+    "image": "https://m.media-amazon.com/images/I/51k+ifAhukL._AC_UY218_.jpg",
+    "classification": "5",
+    "rank": "12",
+    "price": "798",
+    "cents": "00",
+    "options": "2",
+    "colors": {
+        "darkgray": "#404042",
+        "blue": "#7899a9",
+        "pink": "#dbc3c1",
+        "light": "#dddddd"
+    }
+  }
+
+]

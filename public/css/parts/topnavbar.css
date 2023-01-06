@@ -1,0 +1,94 @@
+header {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: #131921;
+    color: #fff;
+}
+
+.navbar {
+    width:100%; 
+    padding: 0 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.barra, .submenu{
+    width: 100%;
+    height: 50px;
+}
+
+.barra {
+    background-color: #e7e7e7;
+}
+
+.submenu {
+    background-color: #232f3e;
+    color: #fff;
+}
+
+
+
+/* FILTER TOP NAVEBAR */
+
+.filter-navbar, .right-navbar {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item-right {
+    margin-left: auto;
+}
+
+.button-navbar, .button-navbar2, .legend-navbar {
+    padding: 10px 10px;
+    margin: 3px 3px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.button-navbar, .button-navbar2 {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-navbar {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.button-navbar2, .legend-navbar {
+    background-color: transparent;
+}
+
+.button-navbar-select {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.button-navbar:hover, .button-navbar2:hover {
+    background-color: #F3BA61;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.button-navbar3 {
+    padding: 10px 10px;
+    margin: 12px 3px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.uk-navbar-nav-subtitle, .uk-navbar-nav-subtitle:hover {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.uk-navbar-nav-subtitle > div {
+    font-size: 1rem;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}

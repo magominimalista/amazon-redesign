@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="public/img/apple-touch-icon.png">
+    <meta name="theme-color" content="#ff9900ff">
+    <meta name="referrer" content="origin">
+    <meta http-equiv="Content-Security-Policy" content="block-all-mixed-content">
+    <meta property="og:site_name" content="Amazon" />
+    <meta property="og:url" content="https://www.amazon.com/" />
+    <meta property="og:title" content="Amazon.com: Ipad" />
+    <meta property="og:description" content="Uma descrição bacana" />
+    <meta property="og:image" content="public/img/share.png"/>
+    <title>Amazon.com: Ipad</title>
+    <meta name="description" content="Uma descrição bacana">
+    <link rel="canonical" href="https://amazon.com" />
+
+    <link rel="stylesheet" href="public/css/uikit.almost-flat.min.css">
+    <link rel="stylesheet" href="public/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#"><img src="public/img/amazon.png" alt="logo" class="logo" /></a>
+            <div class="uk-icon-map-marker" style="margin: 10px 5px; font-size: 20px"></div>
+            <div class="button-navbar3">
+                <a href="" class="uk-navbar-nav-subtitle">
+                    <div>Delivery to</div>Brazil
+                </a>
+            </div>
+
+            <div class="item-right" style="padding-right: 50px">
+                <div class="right-navbar">
+                    <div class="button-navbar3">
+                        <a href="" class="uk-navbar-nav-subtitle">
+                            EN
+                        </a>
+                    </div>
+                    <div class="button-navbar3">
+                        <a href="" class="uk-navbar-nav-subtitle">
+                            <div>Hello, sing in</div>Account & Lists
+                        </a>
+                    </div>
+                    
+                    <div class="button-navbar3">
+                        <a href="" class="uk-navbar-nav-subtitle">
+                            <div>Returns</div>& Orders
+                        </a>
+                    </div>
+
+                    <div class="button-navbar3">
+                        <a href="" class="uk-navbar-nav-subtitle">
+                            Cart
+                        </a>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+    </header>
+
+    <div class="submenu">
+        <div style="width:100%; padding: 0 30px">
+            <div class="right-navbar">
+                <div class="button-navbar2"><i class="uk-icon-navicon"></i> All</div>
+                <div class="button-navbar2">Today's Deals</div>
+                <div class="button-navbar2">Customer Service</div>
+                <div class="button-navbar2">Gift Cards</div>
+                <div class="button-navbar2">Registry</div>
+                <div class="button-navbar2">Sell</div>
+            </div>
+        </div>
+    </div>
+    <div class="barra">
+        <div class="uk-container uk-container-center">
+            <nav class="filter-navbar">
+
+                <div class="item-left">
+                    <p class="legend-navbar" style="padding-left: 0;">1-16 of 790 results for <span style="color:brown">"ipad"</span></p>
+                </div>
+
+                <div class="item-right">
+                    <div class="right-navbar">
+
+                        <div class="legend-navbar">
+                            Views: 
+                        </div>
+                        <button class="button-navbar button-navbar-select">
+                            <img src="public/img/grid.png" alt="grid view" width="22px"/>
+                        </button>
+                        <button class="button-navbar">
+                            <img src="public/img/list.png" alt="grid view" width="22px"/>
+                        </button>
+
+                        <div class="legend-navbar">
+                            Sort by: 
+                        </div>
+                        
+                        <details class="custom-select">
+                            <summary class="radios">
+                                <input type="radio" name="item" id="default" title="Sort by: Feature" checked>
+                                <input type="radio" name="item" id="item1" title="Featured">
+                                <input type="radio" name="item" id="item2" title="Prive Low to Hight">
+                                <input type="radio" name="item" id="item3" title="Price Hight to Low">
+                                <input type="radio" name="item" id="item4" title="Customer Review">
+                                <input type="radio" name="item" id="item5" title="Newest Arrivals">
+                            </summary>
+                            <ul class="list">
+                                <li>
+                                    <label for="item1">
+                                        Featured
+                                        <span></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="item2">Prive Low to Hight</label>
+                                </li>
+                                <li>
+                                    <label for="item3">Price Hight to Low</label>
+                                </li>
+                                <li>
+                                    <label for="item4">Customer Review</label>
+                                </li>
+                                <li>
+                                    <label for="item5">Newest Arrivals</label>
+                                </li>
+                            </ul>
+                        </details>
+
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+
+    <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+        <div class="uk-grid">
+            <div class="uk-width-1-4">
+                <h2 class="uk-h2">Filters</h2>
+                <img src="public/img/menu.jpg" />
+            </div>
+
+            <div class="uk-width-3-4">
+                <h2 class="uk-h2">Results</h2>
+                <div id="items" class="uk-grid uk-grid-small"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="public/js/uikit.min.js"></script>
+    <script src="public/js/data.js"></script>
+</body>
+</html>

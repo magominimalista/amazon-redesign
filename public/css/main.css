@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import "parts/init.css";
+@import "parts/select.css";
+@import "parts/topnavbar.css";
+@import "parts/products.css";
+
+.uk-h2 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    text-align: center;
+    margin: 1px;
+    margin-bottom: -5px;
+    padding: 6px 14px 0px 0px;
+    height: 42px;
+}

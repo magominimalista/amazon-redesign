@@ -1,0 +1,22 @@
+html, body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+}
+
+.js .animate-box {
+    opacity: 0;
+}
+
+svg * {
+    fill: none;
+    stroke: currentColor;
+}

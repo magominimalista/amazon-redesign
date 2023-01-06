@@ -1,0 +1,87 @@
+.precoecor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    margin: 0 5px 20px 5px !important;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all 0.3s ease-in-out;
+    clear: both;
+}
+
+.box:hover {
+    box-shadow: rgba(84, 98, 138, 0.25) 0px 54px 55px, rgba(53, 95, 100, 0.12) 0px -12px 30px, rgba(70, 104, 110, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 999;
+}
+
+.uk-h3 {
+    font-size: 1.3em;
+    color: rgba(0, 0, 0, 0.8);
+    height: 70px;
+}
+
+.verProduto {
+    width: 100%;
+    font-size: large;
+    background-color: #F3BA61;
+    color: #A17829;
+    padding: 14px 20px;
+    margin: 8px 0 0 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.verProduto:hover {
+    background-color: #ff9900ff;
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.precoecor > div > div {
+    border: 3px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.precoecor > div > div:first-of-type {
+    border: 3px solid #000;
+}
+
+.precoecor > div > div:hover {
+    border: 3px solid #000;
+}
+
+.star {
+    color: #f8ad33;
+    font-size: 2.1em;
+}
+
+.precoecor > div {
+    width: 45%;
+}
+
+.precoecor > div:first-of-type {
+    width: 40%;
+}
+
+.money {
+    font-size: 2.1em !important;
+}
+
+.cents {
+    font-size: 0.5em;
+    margin-left: 3px;
+}
+
+.coin {
+    font-size: 0.8em;
+}
+
+.divimage {
+    display: flex;
+    justify-content: center;
+}
